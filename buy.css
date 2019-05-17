@@ -1,0 +1,98 @@
+body{
+	background-color:#F5F5F5;
+}
+.category{
+	color: gray;
+}
+.name{
+	cursor:pointer;
+	font-size:18px;
+	display:inline;
+	margin-bottom:5px;
+	color:blue;
+	font-weight:bold;
+}
+a:hover{
+	text-decoration:underline;
+}
+.item{
+	display:block;
+	border: 1px solid white;
+	width:45%;
+	margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+	box-shadow:1px 1px gray;
+	padding:20px;
+	background-color:#FFFFFA;
+}
+.search_bar{
+	clear:right;
+	text-align:center;
+	width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.basket{
+	text-align:right;
+	float:right;
+	margin-right:10px;
+}
+.basket_div{
+	margin: 2px;
+	box-shadow:1px 1px gray;
+	border: 1px solid white;
+	width:100%;
+	display:block;
+	text-align:left;
+	padding:5px;
+	background-color:#FFFFFA;
+}
+.price{
+	display:inline;
+	float:right;
+	padding-right:2px;
+	font-size:20px;
+}
+.price1{
+	display:inline;
+	font-weight:bold;
+}
+.delete{
+	display:inline;
+	float:right;
+	margin-right:15px;
+	color: red;
+	font-size:16px;
+	font-weight:bold;
+}
+a{
+	text-decoration:none;
+	color:inherit;
+}
+.item_name{
+	display:block;
+	margin-bottom:5px;
+	color:blue;
+	font-size:16px;
+	font-weight:bold;
+}
+.desc{
+	display:block;
+	margin-top:10px;
+}
+.clrbtn{
+	background-color:#85B716;
+	color:white;
+	border:none;
+	padding:5px;
+}
+.srchbtn{
+	background-color:#00509D;
+	color:white;
+	border:none;
+	padding:5px;
+}
+.srchbtn:hover,.clrbtn:hover{
+	cursor:pointer;
+}
